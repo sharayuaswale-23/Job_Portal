@@ -1,0 +1,36 @@
+.my-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    padding: 10px;
+    background-color: white;
+}
+.web-logo{
+    width: 70px;
+    height: 40px;
+}
+.nav-ul-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav-li{
+    margin-right: 30px;
+}
+.my-nav-items{
+    color: black;
+    margin-right: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+@media (max-width:450px){
+    .nav-li{
+        margin-right: 5px;
+    }
+    .my-nav-items{
+        margin-right: 5px;
+        font-size: 15px; 
+    }
+}

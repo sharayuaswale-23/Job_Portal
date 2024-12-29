@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700");
+.main-cont{
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1538137524007-21e48fa42f3f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ac9fa0975bd2ebad7afd906c5a3a15ab&auto=format&fit=crop&w=1834&q=80);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container{
+    box-sizing: border-box;
+    height: 100%;
+}
+.modal{
+    display: flex;
+    border-radius: 30px;
+    height: 80%;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+}
+.login-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    font-family: "Nunito", sans-serif;
+    background-color: white;
+}
+.login-right{
+    width: 50%;
+    overflow: hidden;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.button{
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+.login-title{
+    font-size: 26px;
+    margin: 0;
+    font-weight: 400;
+    color: #55311c;
+}
+@media(max-width: 750px) {
+    .modal{
+        flex-direction: column;
+    }
+    .login-left {
+      width: 90%;
+      height: 80%;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      padding: 20px;
+    }
+    .login-right {
+      height: 15%;
+      width: 90%;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+    }
+  }
